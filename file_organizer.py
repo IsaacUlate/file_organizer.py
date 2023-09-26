@@ -59,7 +59,7 @@ if __name__ == "__main__":
             os.rename(path + filename, folder + filename)
 
         elif extension in [".sql"]:
-            ffolder = "/{}/{}/{}/SQL/".format(users_folder,user_folder,main_folder)
+            folder = "/{}/{}/{}/SQL/".format(users_folder,user_folder,main_folder)
             os.rename(path + filename, folder + filename)
 
         elif extension in [".torrent"]:
